@@ -23,6 +23,6 @@ public class exercise250_2 {
             }
             result = false;
         }
-        return result;
+        return true;
     }
 }
