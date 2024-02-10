@@ -6,5 +6,8 @@ public class test {
         c1.print();
         Circle c2 = new Circle(2);
         c2.print();
+
+        System.out.println(c1.toString());
+        System.out.println(c2.toString());
     }
 }

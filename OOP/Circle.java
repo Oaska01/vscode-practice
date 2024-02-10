@@ -25,4 +25,12 @@ public class Circle {
         System.out.println("The radius is : " + radius);
         System.out.println("the number of objects is : " + numOfObjects);
     }
+
+    public String toString(){
+        return "Radius = " + radius + "\n" + "The number of object : " + numOfObjects;
+    }
+
+    public static void updateCircle(Circle c){
+        c.setRadius(c.getRadius()+1);
+    }
 }
