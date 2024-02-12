@@ -1,5 +1,7 @@
 package OOP;
 
+import java.util.Random;
+
 public class test {
     public static void main(String[] args) {
         /*Circle c1 = new Circle(5);
@@ -21,6 +23,15 @@ public class test {
             double total = 0;
             System.out.print("Volume cube " + (i+1) + " is : " + c1[i].Litter());
 
+        }
+
+        Random r1 = new Random();
+
+        Circle[] myCircle = new Circle[10];
+        for(int i = 0 ; i < myCircle.length; i++){
+            myCircle[i] =  new Circle(r1.nextDouble());
+            System.out.print("Circle " + i + " radius = " + myCircle[i].getRadius());
+       System.out.println(" area = " + myCircle[i].getArea());
         }
     }
 }
